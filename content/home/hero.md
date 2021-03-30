@@ -2,17 +2,9 @@
 widget: hero
 headless: true
 weight: 10
-title: Hugo Academic Starter
-hero_media: hero-academic.png
-cta:
-  label: '**Get Started**'
-  url: https://wowchemy.com/templates/
-cta_alt:
-  label: Ask a question
-  url: https://discord.gg/z8wNYzb
-cta_note:
-  label: >-
-    <a class="js-github-release" href="https://wowchemy.com/updates/" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a><div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-modules" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Wowchemy site builder for Hugo</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/starter-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
+title: Welcome to join the R family!
+hero_media: r.png
+
 design:
   background:
     gradient_end: '#1976d2'
@@ -22,6 +14,8 @@ advanced:
   css_class: fullscreen
 ---
 
-**The FREE, Hugo-based open source website builder and template trusted by 500,000+ sites.**
+For R beginners, mastering the use of each package is the most important thing in the learning process. As a statistician, the two most crucial jobs are to tidy raw data and create informative plots. Here, we will introduce two widely used packages, `tidyverse` and `ggplot2`. These two packages are not only powerful in dealing with data but also very friendly to beginners. 
 
-**Build anything with widgets** - from landing pages, knowledge bases, and courses to academic resumés, conferences, and tech blogs.
+
+So, let's get started!
+
