@@ -2,87 +2,42 @@
 authors:
 - admin
 categories:
-- Tutorial
+- Intro to R
 date: "2021-03-06T00:00:00Z"
 draft: false
 featured: false
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: 'Image credit: [**tidyver.org**](https://cdn.analyticsvidhya.com/wp-content/uploads/2019/05/tidyverse-default.png)'
   focal_point: ""
-  placement: 2
+  placement: 1
   preview_only: false
 lastmod: "2021-03-06T00:00:00Z"
 projects: []
-subtitle: "Welcome \U0001F44B We know that first impressions are important, so we've
-  populated your new site with some initial content to help you get familiar with
-  everything in no time."
-summary: "Welcome \U0001F44B We know that first impressions are important, so we've
-  populated your new site with some initial content to help you get familiar with
-  everything in no time."
+subtitle: "Welcome \U0001F44B First, we all know that statistician dedicate most of their time in tiding raw data before conducting any further analysis. It will be a tedious and inefficient process if all jobs are done manually. Therefore, the very first package that I'm going to introduce is the `tidyverse` package, the foundation of data wrangling."
+summary: "Welcome \U0001F44B First, we all know that statistician dedicate most of their time in tiding raw data before conducting any further analysis. It will be a tedious and inefficient process if all jobs are done manually. Therefore, the very first package that I'm going to introduce is the `tidyverse` package, the foundation of data wrangling."
 tags:
 - Academic
 title: Get to know the 'tidyverse' package in R
 ---
 
-## Overview
+## General information about the tidyverse package
 
-1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+The `tidyverse` package is introduced by [**Hadley Wickham**](https://en.wikipedia.org/wiki/Hadley_Wickham) and his team that "share an underlying design philosophy, grammar, and data structures" of tidy data. 
 
-{{< figure src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png" title="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." >}}
+## What is tidyverse?
 
-## Get Started
+The `tidyverse` package is actually a collection of essential R packages for data analysis, it contains several other packages (dplyr, ggplot2, etc.) which will be introduced in future blogs. The packages within `tidyverse` help statisticians to present and interact with the data. Specifically, one can but not limit to subset, transform or visualize data using packages within `tidyverse`.
 
-- 👉 [**Create a new site**](https://wowchemy.com/templates/)
-- 📚 [**Personalize your site**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/guide/update/) and [Release Notes](https://wowchemy.com/updates/)
+{{< figure src="https://cdn.analyticsvidhya.com/wp-content/uploads/2019/05/ggplot_hive.jpg" title="Packages in `tidyverse`." >}}
 
-## Crowd-funded open-source software
+## Get Started to use tidyverse in R
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+1. Use `install.packages('tidyverse')` to install the `tidyverse` package into your RStudio.
+2. Use `library(tidyverse)` to tell R that you are going to use functions within the `tidyverse` package before actually doing so. \
+After using the `library` function you should expect an output looks like as follow:
 
-### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://wowchemy.com/plans/)
+![](images/library.png)
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://wowchemy.com/plans/) awesome rewards and extra features 🦄✨**
+In the table, it presents all packages names and its version within the `tidyverse` package. There are 8 packages respond for different functionality, for example, `ggplot2` in charge of producing informative charts, graphs and visualizations; `dplyr` is dedicated to all sorts of data manipulation (i.e. selecting certain types of observations).
 
-## Ecosystem
-
-* **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli):** Automatically import publications from BibTeX
-
-## Inspiration
-
-[Check out the latest **demo**](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://wowchemy.com/user-stories/) of personal, project, and business sites.
-
-## Features
-
-- **Page builder** - Create *anything* with [**widgets**](https://wowchemy.com/docs/page-builder/) and [**elements**](https://wowchemy.com/docs/writing-markdown-latex/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://wowchemy.com/docs/writing-markdown-latex/), [**Jupyter**](https://wowchemy.com/docs/import/jupyter/), or [**RStudio**](https://wowchemy.com/docs/install-locally/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://wowchemy.com/docs/customization/)
-- **Display Code and Math** - Code highlighting and [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics) supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 34+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
-
-## Themes
-
-Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site admin in `params.toml`.
-
-[Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
-
-## License
-
-Copyright 2016-present [George Cushen](https://georgecushen.com).
-
-Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md) license.
+You might notice that there are some conflicts pop up in the output table, don't worry, this is totally normal. The only thing it is suggesting is that the `dplyr` package has two common function `filter()` and `log()` with the `stats` package. The result from each package is totally the same, R is presenting this only because it needs to know which package you want to use. One way to solve the problem is referring the specific package that the function is from when using it, for example using `dplyr::filter()` or `stats::filter()`.
