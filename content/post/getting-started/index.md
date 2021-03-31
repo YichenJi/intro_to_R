@@ -3,7 +3,7 @@ authors:
 - admin
 categories:
 - Intro to R
-date: "2021-03-06T00:00:00Z"
+date: "2021-03-06"
 draft: false
 featured: false
 image:
