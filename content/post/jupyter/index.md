@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-categories: []
+categories: [Intro to R]
 date: "2019-02-05T00:00:00Z"
 image:
   caption: ""
