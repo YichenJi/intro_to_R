@@ -53,4 +53,12 @@ The output you expect to get will be like this:
 
 Now, you have a smaller dataset that only contains information about `Sepal.Length` and `Sepal.Width`.
 
+## 3. Use arrange() to sort the data
+
+
+
+
+
+
+
 ### Did you find this page helpful? Consider sharing it 🙌
