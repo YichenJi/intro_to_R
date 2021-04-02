@@ -9,6 +9,8 @@ highlight: true
 image:
   placement: 1
 math: true
+tags:
+- Academic
 title: Intro to the 'dplyr' package in R
 ---
 
@@ -17,8 +19,6 @@ title: Intro to the 'dplyr' package in R
 ## 1. Use filter() to subset data row-wise.
 
 `filter()` takes logical expressions (conditions specified by the user) and return rows that satisfied the condition from the original data frame.
-
-## Examples
 
 The following example uses the default dataframe `iris` in R to show how `filter()` works in practice. This data set contains three plant species (setosa, virginica, versicolor) and four features measured for each sample. \
 First of all, we need to load `iris` into R. 
@@ -41,7 +41,7 @@ The table here only presents the first ten rows of the result, there should be 5
 
 ## 2. Use select() to subset the data on variables or columns.
 
-The functionality of `select()` is similar to `filter()`, the difference is that the former extract columns rather than rows. Besides, `select()` takes the data and varaibles as inputs instead of conditions specified by the user in `filter()`. The complete code follows this form: `select(data, variables)`. \
+The functionality of `select()` is similar to `filter()`, the difference is that the former extract columns rather than rows. Besides, `select()` takes the data and varaibles as inputs instead of conditions specified by the user in `filter()`. The complete code follows this form: `select(data, variables)`. 
 
 Back to the `iris` data. This time, say we only need to investigate two variables `Sepal.Length` and `Sepal.Width` from the whole data set. We can achieve this by using the following code:
 ``` r
