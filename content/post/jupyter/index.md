@@ -23,7 +23,7 @@ Creating visualisations of data is a step in communicate information to others. 
 ## Data and Mapping
 In order to make a great plot, we need three components **Data**, **Aesthetics** and **Geometry**. In this section, we will focus on **Data** and **Aesthetics** and introduce different types of **Geometry** in the later section.
 
-- Data: is basically the data we use to create plots. In this tutorial we use the inherent mtcars dataset and diamonds dataset as examples to make presentations of verbs in `ggplot2`.
+- Data: is basically the data we use to create plots. In this tutorial we use the inherent diamonds dataset as examples to make presentations of verbs in `ggplot2`.
  
 - Aesthetics: or we can call it aesthetic mapping, it describe how variables in the data are mapped to visual properties (aesthetics) of geoms. `aes()` uses non-standard evaluation to capture the variable names. The color, shape, grouping of the graph can be mapped through the variables in the dataset.
 
