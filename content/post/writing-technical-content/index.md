@@ -3,7 +3,7 @@ authors:
 - admin
 categories:
 - Intro to R
-date: "2021-03-13"
+date: "2021-03-15"
 diagram: true
 highlight: true
 image:
@@ -12,6 +12,7 @@ math: true
 tags:
 - Academic
 title: Intro to the 'dplyr' package in R
+lastmod: "2021-03-15T00:00:00Z"
 ---
 
 `dplyr` is the core package in the `tidyverse` package that is used for data manipulation. There are five main functions used by statisticians to manipulate the raw data into the wanted form:

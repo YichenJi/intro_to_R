@@ -3,7 +3,7 @@ authors:
 - admin
 categories:
 - Intro to R
-date: "2021-03-06"
+date: "2021-03-01"
 draft: false
 featured: false
 image:
@@ -11,7 +11,7 @@ image:
   focal_point: ""
   placement: 1
   preview_only: false
-lastmod: "2021-03-06T00:00:00Z"
+lastmod: "2021-03-01T00:00:00Z"
 projects: []
 subtitle: "Welcome \U0001F44B First, we all know that statistician dedicate most of their time in tiding raw data before conducting any further analysis. It will be a tedious and inefficient process if all jobs are done manually. Therefore, the very first package that I'm going to introduce is the `tidyverse` package, the foundation of data wrangling."
 summary: "Welcome \U0001F44B First, we all know that statistician dedicate most of their time in tiding raw data before conducting any further analysis. It will be a tedious and inefficient process if all jobs are done manually. Therefore, the very first package that I'm going to introduce is the `tidyverse` package, the foundation of data wrangling."

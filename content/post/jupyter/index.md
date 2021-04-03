@@ -2,11 +2,11 @@
 authors:
 - admin
 categories: [Intro to R]
-date: "2021-03-20T00:00:00Z"
+date: "2021-03-29T00:00:00Z"
 image:
   caption: ""
   focal_point: ""
-lastMod: "2021-03-20T00:00:00Z"
+lastMod: "2021-03-29T00:00:00Z"
 projects: []
 subtitle: The key to make beautiful graphs for your projects.
 summary: 
